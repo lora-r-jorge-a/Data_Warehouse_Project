@@ -1,4 +1,3 @@
---DDL to create objects for Bronze layer
 
 /*
 	=============================================
