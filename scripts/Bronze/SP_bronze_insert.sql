@@ -6,10 +6,16 @@
 
 	Description:
 		The following script truncates any existing data in Bronze Layer tables
-		in order to proceed with a BULK INSERT of data from source system without
-		performing any data transformation.
+		in order to proceed with a BULK INSERT of data from source system (CSV files)
+		without performing any data transformation.
 		
 		It shows user if load was successful, error message and also measures load performance.
+		
+		This stored procedure does not need any input parameter and it does not return any value.
+		
+		To call this procedure:
+		
+		EXEC Bronze.load_bronze;
 
 	=============================================
 */
