@@ -219,7 +219,7 @@ BEGIN
 			WHEN UPPER(TRIM(gen)) = 'F' THEN 'Female'
 			WHEN UPPER(TRIM(gen)) = 'M' THEN 'Male'
 			WHEN UPPER(TRIM(gen)) IS NULL OR UPPER(TRIM(gen)) = '' THEN 'n/a'
-			ELSE UPPER(TRIM(gen))
+			ELSE TRIM(gen)
 		END gen
 		FROM Bronze.erp_cust_az12;
 		PRINT'';
