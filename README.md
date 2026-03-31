@@ -1,13 +1,16 @@
 # Data_Warehouse_Project
-Data Warehouse project built using data modeling, ETL and SQL Server in order to implement analytics.
 
-This project consists of building a Data Warehouse which will be employed for analytics to make data-driven decisions.
-Data Warehouse project is part of a portfolio in order to follow data engineering and analytics industry best practices.
+This is a Data Warehouse project using Medallion architecture as data model, ELT and a SQL Server for a analytics.
+
+The project requires building a Data Warehouse intended to be used by data analysts to facilitate data-driven decisions.
+
+The making of Data Warehouse project was under data engineering industry best practices.
+
 
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Create a data warehouse which runs on SQL Server to gather business information regarding sales data in order to provide an environment for decision-making based on analytics.
 
 #### Specifications
 - **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
@@ -15,8 +18,6 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-
----
 
 ### BI: Analytics & Reporting (Data Analysis)
 
@@ -28,4 +29,15 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
 
-For more details, refer to [docs/requirements.md](docs/requirements.md).
+---
+
+## 🏗️ Credits & Attribution
+
+This project is a replication and personal implementation based on the **SQL Data Warehouse Project** originally created by **Baraa Khatib Salkini** (Data With Baraa).
+
+* **Original Project:** [SQL Data Warehouse Project](https://github.com/DataWithBaraa/sql-data-warehouse-project)
+* **Original Author:** [Baraa Khatib Salkini](https://linkedin.com/in/baraa-khatib-salkini) | [Data With Baraa](https://www.datawithbaraa.com)
+* **Original License:** [MIT License](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/LICENSE)
+
+I would like to express my gratitude to Baraa for his high-quality educational content and for sharing the foundations of this Data Warehouse architecture. 
+You can find his tutorials and more data-related content on his [YouTube Channel](https://www.youtube.com/@DataWithBaraa).
