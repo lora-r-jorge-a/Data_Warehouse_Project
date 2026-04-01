@@ -29,6 +29,16 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
 
+## 📊 Datasets
+On a real-world, datasets wouldn't be available unless working with public data. 
+Since this is only for demonstration purposes the project includes 6 CSV files used to populate the Data Warehouse:
+* `sales_details.csv`: Historical transaction records from CRM system.
+* `prd_info.csv`: Product catalog and categories from CRM system.
+* `cust_info.csv`: Customers information from CRM system.
+* `CUST_AZ12.csv`: Customer information from ERP system.
+* `LOC_A101.csv`: Customer country from ERP system.
+* `PX_CAT_G1V2.csv`: Product catalog and categories from ERP system.
+
 ---
 
 ## 🏗️ Credits & Attribution
