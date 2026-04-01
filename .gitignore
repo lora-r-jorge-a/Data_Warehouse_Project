@@ -1,0 +1,39 @@
+# --- Environment and Editors ---
+.venv/
+venv/
+env/
+bin/
+obj/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Python: Temporary files and Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.inventory
+.ipynb_checkpoints/
+
+# --- Security: Credentials and local settings ---
+.env
+*.env
+secrets.json
+auth.json
+config.ini
+credentials.yml
+
+# --- Data Warehouse & DB specifics---
+*.log
+*.tmp
+*.bak
+*.swp
+.dbt/
+target/
+dbt_modules/
+dbt_packages/
+
+# --- Datasets handling (.csv) ---
+!datasets/*.csv
